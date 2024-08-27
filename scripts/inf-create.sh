@@ -62,11 +62,15 @@ fi
 
 #If you are unable to obtain the permission at the tenant level described in Azure account requirements, you can set the following to true provided you have created Azure AD App Registrations. 
 
-#export TF_VAR_isInAutomation=true
-#export TF_VAR_aadWebClientId=""
-#export TF_VAR_aadMgmtClientId=""
-#export TF_VAR_aadMgmtServicePrincipalId=""
-#export TF_VAR_aadMgmtClientSecret=""
+export TF_VAR_isInAutomation=true
+# spn web access key id
+export TF_VAR_aadWebClientId="8bf020ff-e83f-4b66-9022-eb1373b5c6f0"
+# spn techpass key id
+export TF_VAR_aadMgmtClientId=" c67442a8-8676-4f8b-8480-ba1eff5c0404"
+# object id form GovTech
+export TF_VAR_aadMgmtServicePrincipalId="14a2e156-468e-4f95-9bf6-c902383aa2e2"
+# spn techpass key
+export TF_VAR_aadMgmtClientSecret="ILK8Q~fdC7shxiCw_LHs~5cHPqBSm1Bht9kH4btV"
 
 
 # prepare vars for the users you wish to assign to the security group

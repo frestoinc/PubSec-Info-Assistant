@@ -1,0 +1,1 @@
+az login --tenant db5e17b0-dc06-468e-a1ca-956f989dfdd2 --use-device-code
