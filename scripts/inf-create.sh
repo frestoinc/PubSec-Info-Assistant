@@ -63,13 +63,13 @@ fi
 #If you are unable to obtain the permission at the tenant level described in Azure account requirements, you can set the following to true provided you have created Azure AD App Registrations. 
 
 export TF_VAR_isInAutomation=true
-# spn web access key id
-export TF_VAR_aadWebClientId="8bf020ff-e83f-4b66-9022-eb1373b5c6f0"
-# spn techpass key id
-export TF_VAR_aadMgmtClientId=" c67442a8-8676-4f8b-8480-ba1eff5c0404"
-# object id form GovTech
+# Access ID of web from GovTech
+export TF_VAR_aadWebClientId="776f11b2-e282-438f-b4ff-8e758fb99cea"
+# Access ID of TechPass from GovTech
+export TF_VAR_aadMgmtClientId="934faaf3-e9d4-4d87-94ea-c0bc20eea8cc"
+# Object ID of Techpass from GovTech
 export TF_VAR_aadMgmtServicePrincipalId="14a2e156-468e-4f95-9bf6-c902383aa2e2"
-# spn techpass key
+# Key of Techpass from CMPs
 export TF_VAR_aadMgmtClientSecret="ILK8Q~fdC7shxiCw_LHs~5cHPqBSm1Bht9kH4btV"
 
 
